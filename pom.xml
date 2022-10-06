@@ -33,6 +33,11 @@
         <springcloud.version>2021.0.4</springcloud.version>
         <springcloudalibaba.version>2021.0.4.0</springcloudalibaba.version>
         <mysql.version>8.0.29</mysql.version>
+        <redission.version>3.17.6</redission.version>
+        <jjwt.version>0.11.5</jjwt.version>
+        <mybatis.version>2.2.2</mybatis.version>
+        <easycaptcha.version>1.6.2</easycaptcha.version>
+        <yauaa.version>7.6.0</yauaa.version>
     </properties>
 
     <dependencyManagement>
@@ -62,6 +67,54 @@
                 <version>${mysql.version}</version>
             </dependency>
 
+            <!--redission-->
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson</artifactId>
+                <version>${redission.version}</version>
+            </dependency>
+
+            <!-- json web token -->
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-api</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-impl</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-jackson</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+
+            <!-- mybatis -->
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+
+            <!--图片验证码-->
+            <dependency>
+                <groupId>com.github.whvcse</groupId>
+                <artifactId>easy-captcha</artifactId>
+                <version>${easycaptcha.version}</version>
+            </dependency>
+
+            <!--浏览器信息解析-->
+            <dependency>
+                <groupId>nl.basjes.parse.useragent</groupId>
+                <artifactId>yauaa</artifactId>
+                <version>${yauaa.version}</version>
+            </dependency>
+
+
         </dependencies>
     </dependencyManagement>
 
@@ -70,5 +123,6 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+
     </dependencies>
 </project>
