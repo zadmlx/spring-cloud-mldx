@@ -1,0 +1,7 @@
+individual\me\domain\Log.class
+individual\me\aspect\LogAspect.class
+individual\me\domain\Page.class
+individual\me\service\LogService.class
+individual\me\repository\LogRepository.class
+individual\me\annotation\Log.class
+individual\me\service\impl\LogServiceImpl.class

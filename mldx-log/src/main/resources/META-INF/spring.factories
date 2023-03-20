@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+individual.me.aspect.LogAspect,\
+individual.me.service.impl.LogServiceImpl,\
+individual.me.repository.LogRepository

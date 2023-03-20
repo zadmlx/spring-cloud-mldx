@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="individual.me.repository.UserRepository">
+
+    <!--<sql id="fields">
+        id, username, password, email, nickname, phone, icon, create_time, update_time, gender, level
+    </sql>-->
+
+    <select id="loadUserByUsername" resultType="individual.me.domain.User">
+        select id, username, password, email, nickname, phone, icon, create_time, update_time, gender from user where username = #{username}
+    </select>
+
+
+</mapper>

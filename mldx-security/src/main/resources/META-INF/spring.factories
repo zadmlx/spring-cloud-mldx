@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+individual.me.aspect.OriginAspect,\
+individual.me.aspect.LimitAspect,\
+individual.me.config.web.MvcConfigurer

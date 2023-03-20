@@ -1,0 +1,4 @@
+individual\me\config\WhiteRouteList.class
+individual\me\GatewayApplication.class
+META-INF\spring-configuration-metadata.json
+individual\me\filter\AuthFilter.class

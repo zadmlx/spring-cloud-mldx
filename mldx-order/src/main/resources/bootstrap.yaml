@@ -1,0 +1,22 @@
+server:
+  port: 8081
+spring:
+  rabbitmq:
+    listener:
+      simple:
+        retry:
+          enabled: true # 开启消费者失败重试
+          initial-interval: 1000 # 初识的失败等待时长为1秒
+          multiplier: 1 # 失败的等待时长倍数，下次等待时长 = multiplier * last-interval
+          max-attempts: 3 # 最大重试次数
+          stateless: true # true无状态；false有状态。如果业务中包含事务，这里改为false
+  application:
+    name: mldx-order
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        server-addr: 112.74.61.202:8848
+        file-extension: yaml
+      server-addr: 112.74.61.202:8848

@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "security.white",
+      "type": "individual.me.config.WhiteRouteList",
+      "sourceType": "individual.me.config.WhiteRouteList"
+    }
+  ],
+  "properties": [
+    {
+      "name": "security.white.white",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "individual.me.config.WhiteRouteList"
+    }
+  ],
+  "hints": []
+}

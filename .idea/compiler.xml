@@ -2,24 +2,45 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mldx-product" />
+        <module name="mldx-admin" />
+        <module name="mldx-security" />
+        <module name="mldx-seller" />
         <module name="mldx-order" />
         <module name="mldx-api" />
-        <module name="mldx-comment" />
         <module name="mldx-gateway" />
-        <module name="mldx-auth" />
         <module name="mldx-log" />
+        <module name="mldx-auth" />
         <module name="mldx-common" />
         <module name="mldx-coupon" />
       </profile>
+      <profile name="Annotation profile for spring-cloud-mldx" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.5.2.Final/mapstruct-processor-1.5.2.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.2.Final/mapstruct-1.5.2.Final.jar" />
+        </processorPath>
+        <module name="mldx-product" />
+        <module name="mldx-user" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mldx-comment" target="1.8" />
+      <module name="mldx-login" target="1.8" />
+      <module name="mldx-system" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mldx-admin" options="-parameters" />
       <module name="mldx-api" options="-parameters" />
       <module name="mldx-auth" options="-parameters" />
       <module name="mldx-comment" options="-parameters" />
@@ -27,8 +48,13 @@
       <module name="mldx-coupon" options="-parameters" />
       <module name="mldx-gateway" options="-parameters" />
       <module name="mldx-log" options="-parameters" />
+      <module name="mldx-login" options="-parameters" />
       <module name="mldx-order" options="-parameters" />
       <module name="mldx-product" options="-parameters" />
+      <module name="mldx-security" options="-parameters" />
+      <module name="mldx-seller" options="-parameters" />
+      <module name="mldx-system" options="-parameters" />
+      <module name="mldx-user" options="-parameters" />
       <module name="spring-cloud-mldx" options="" />
     </option>
   </component>

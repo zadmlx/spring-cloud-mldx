@@ -1,0 +1,25 @@
+server:
+  port: 8083
+spring:
+  redis:
+    host: 112.74.61.202
+    port: 7410
+    password: 521965
+  application:
+    name: mldx-auth
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: 112.74.61.202:8848
+      config:
+        file-extension: yaml
+        server-addr: 112.74.61.202:8848
+  datasource:
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mldx?serverTimezone=Asia/Shanghai&characterEncoding=utf8
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml

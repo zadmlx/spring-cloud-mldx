@@ -1,0 +1,46 @@
+server:
+  port: 8080
+spring:
+  redis:
+    host: 112.74.61.202
+    port: 7410
+    password: 521965
+  main:
+    web-application-type: reactive
+  application:
+    name: mldx-gateway
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: 112.74.61.202:8848 # Nacos
+      config:
+        file-extension: yaml
+        server-addr: 112.74.61.202:8848
+    gateway:
+      routes:
+        - id: mldx-auth
+          uri: lb://mldx-auth
+          predicates:
+            - Path=/auth/**
+
+        - id: mldx-product
+          uri: lb://mldx-product
+          predicates:
+            - Path=/product/**
+
+        - id: mldx-user
+          uri: lb://mldx-user
+          predicates:
+            - Path=/user/**
+
+
+
+
+
+security:
+  white:
+    white:
+      - "/auth/**"
+      - "/admin/**"
+

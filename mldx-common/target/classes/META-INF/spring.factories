@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+individual.me.util.SpringUtil,\
+individual.me.config.RabbitMQConfig,\
+individual.me.config.RedisConfig,\
+individual.me.util.JwtService,\
+individual.me.thread.ThreadPoolConfig

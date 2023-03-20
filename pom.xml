@@ -9,15 +9,19 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>mldx-auth</module>
+        <module>mldx-security</module>
         <module>mldx-api</module>
         <module>mldx-order</module>
         <module>mldx-log</module>
         <module>mldx-common</module>
         <module>mldx-coupon</module>
-        <module>mldx-comment</module>
         <module>mldx-gateway</module>
         <module>mldx-product</module>
+        <module>mldx-admin</module>
+        <module>mldx-auth</module>
+        <module>mldx-user</module>
+        <module>mldx-seller</module>
+
     </modules>
 
     <parent>
@@ -30,14 +34,17 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <springcloud.version>2021.0.4</springcloud.version>
-        <springcloudalibaba.version>2021.0.4.0</springcloudalibaba.version>
+        <springcloud.version>2021.0.1</springcloud.version>
+        <springcloudalibaba.version>2021.0.1.0</springcloudalibaba.version>
         <mysql.version>8.0.29</mysql.version>
         <redission.version>3.17.6</redission.version>
         <jjwt.version>0.11.5</jjwt.version>
         <mybatis.version>2.2.2</mybatis.version>
         <easycaptcha.version>1.6.2</easycaptcha.version>
         <yauaa.version>7.6.0</yauaa.version>
+        <hutool.version>5.8.5</hutool.version>
+        <mapstruct.version>1.5.2.Final</mapstruct.version>
+        <fastjson.version>2.0.12</fastjson.version>
     </properties>
 
     <dependencyManagement>
@@ -114,15 +121,39 @@
                 <version>${yauaa.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct-processor</artifactId>
+                <version>${mapstruct.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct</artifactId>
+                <version>${mapstruct.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
 
         </dependencies>
+
     </dependencyManagement>
+
 
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
-
     </dependencies>
 </project>

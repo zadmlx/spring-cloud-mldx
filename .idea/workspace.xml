@@ -10,6 +10,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Mybatis-Mapper" />
+        <option value="logback" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt-impl/0.11.5/jjwt-impl-0.11.5-sources.jar!/io/jsonwebtoken/impl/DefaultJwtParser.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -17,8 +31,12 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="$PROJECT_DIR$/../../../../../../Environment/apache-maven-3.8.3-bin/apache-maven-3.8.3" />
+        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Fkau808NHvlYbzNQBEdXOiMHNR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,17 +46,136 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "aspect.path.notification.shown": "true",
     "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/daixun/Desktop/spring/项目/spring-cloud-mldx/mldx-common/src/main/resources/mapper",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4091954",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
+    "spring.configuration.checksum": "546977b1c9e8b1463241566bd1de42fa",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "MySQL"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\daixun\Desktop\spring\项目\spring-cloud-mldx\mldx-common\src\main\resources\mapper" />
+      <recent name="C:\Users\daixun\Desktop\spring\项目\spring-cloud-mldx\mldx-common\src\main\java\individual\me\log" />
+      <recent name="C:\Users\daixun\Desktop\spring\项目\spring-cloud-mldx\mldx-seller\src\main\java\individual\me\security\handler" />
+      <recent name="C:\Users\daixun\Desktop\spring\项目\spring-cloud-mldx\mldx-user\src\main\resources" />
+      <recent name="C:\Users\daixun\Desktop\spring\项目\spring-cloud-mldx\mldx-log\src\main\resources\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\daixun\Desktop\spring\项目\spring-cloud-mldx\mldx-auth\src\main\resources\mapper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="individual.me.map" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="individual.me.module.user" />
+      <recent name="individual.me.security" />
+      <recent name="individual.me.module.coupon" />
+      <recent name="individual.me.thread" />
+      <recent name="individual.me.mq" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserApplication">
+    <configuration name="PassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="individual.me.PassTest" />
+      <module name="mldx-auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="individual.me.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="ACTIVE_PROFILES" />
+      <module name="mldx-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="individual.me.AuthApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="individual.me.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mldx-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="individual.me.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="individual.me.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mldx-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="individual.me.ProductApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="individual.me.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mldx-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="individual.me.UserApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="individual.me.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="lua.app" factoryName="Lua Application">
       <option name="program" value="lua.exe" />
       <option name="file" value="" />
@@ -49,8 +186,23 @@
       <option name="showConsole" value="true" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserApplication" />
+        <item itemvalue="Spring Boot.ProductApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.AuthApplication" />
+        <item itemvalue="Application.PassTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\daixun\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="f80357d5-7c82-4586-a772-c82a0ca7da8e" name="Changes" comment="" />
@@ -59,7 +211,32 @@
       <option name="presentableId" value="Default" />
       <updated>1665038755815</updated>
       <workItem from="1665038757202" duration="5454000" />
-      <workItem from="1665048167362" duration="1454000" />
+      <workItem from="1665048167362" duration="8700000" />
+      <workItem from="1665058396959" duration="8789000" />
+      <workItem from="1665130095052" duration="9091000" />
+      <workItem from="1665199961065" duration="27215000" />
+      <workItem from="1665242761960" duration="6597000" />
+      <workItem from="1665294824220" duration="7378000" />
+      <workItem from="1665318407143" duration="300000" />
+      <workItem from="1665318757219" duration="963000" />
+      <workItem from="1665319759995" duration="55134000" />
+      <workItem from="1665456262047" duration="18248000" />
+      <workItem from="1665547467284" duration="3536000" />
+      <workItem from="1665551790214" duration="20999000" />
+      <workItem from="1665635301992" duration="16039000" />
+      <workItem from="1665745935857" duration="47568000" />
+      <workItem from="1665902053179" duration="10228000" />
+      <workItem from="1665983415338" duration="30697000" />
+      <workItem from="1666069721454" duration="4533000" />
+      <workItem from="1666203529813" duration="1040000" />
+      <workItem from="1666260910353" duration="5578000" />
+      <workItem from="1666289413990" duration="1200000" />
+      <workItem from="1666330623505" duration="2617000" />
+      <workItem from="1666461812301" duration="13870000" />
+      <workItem from="1666516046469" duration="13153000" />
+      <workItem from="1666587347697" duration="1735000" />
+      <workItem from="1666682879354" duration="154000" />
+      <workItem from="1678806072455" duration="962000" />
     </task>
     <servers />
   </component>
@@ -81,5 +258,93 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.23/spring-webmvc-5.3.23-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>1031</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mldx-auth/src/main/java/individual/me/service/impl/UserServiceImpl.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mldx-gateway/src/main/java/individual/me/filter/AuthFilter.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mldx-security/src/main/java/individual/me/aspect/OriginAspect.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mldx-product/src/main/java/individual/me/service/impl/ProductServiceImpl.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mldx-user/src/main/java/individual/me/service/HomePageService.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/mldx-security/src/main/java/individual/me/config/web/UserDetailsInterceptor.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.7.4/spring-boot-2.7.4.jar!/org/springframework/boot/SpringApplication.class</url>
+          <line>257</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.23/spring-context-5.3.23-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>563</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.23/spring-beans-5.3.23-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>928</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.3.23/spring-beans-5.3.23-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>949</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/mldx-user/src/main/java/individual/me/service/HomePageService.java</url>
+          <line>48</line>
+          <properties class="individual.me.service.HomePageService" method="loadHomePage">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.3.23/spring-context-5.3.23-sources.jar!/org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader.java</url>
+          <line>186</line>
+          <properties class="org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader" method="loadBeanDefinitionsForBeanMethod">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.springframework.beans.factory.support.DefaultListableBeanFactory" memberName="beanDefinitionMap" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

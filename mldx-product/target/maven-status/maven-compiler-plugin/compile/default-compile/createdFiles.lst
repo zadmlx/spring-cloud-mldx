@@ -1,0 +1,10 @@
+individual\me\cache\ProductCache.class
+individual\me\ProductApplication.class
+individual\me\map\ProductConverter.class
+individual\me\service\ProductService.class
+individual\me\repository\ProductRepository.class
+individual\me\map\ProductConverterImpl.class
+individual\me\controller\ProductController.class
+individual\me\domain\ProductVo.class
+individual\me\service\impl\ProductServiceImpl.class
+individual\me\domain\ShopProduct.class
