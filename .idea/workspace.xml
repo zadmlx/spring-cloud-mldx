@@ -55,7 +55,7 @@
     "WebServerToolWindowFactoryState": "false",
     "aspect.path.notification.shown": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/daixun/Desktop/spring/项目/spring-cloud-mldx/mldx-common/src/main/resources/mapper",
+    "last_opened_file_path": "C:/Users/daixun/Desktop/spring/项目/spring-cloud-mldx",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,7 +65,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.4091954",
     "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "spring.configuration.checksum": "546977b1c9e8b1463241566bd1de42fa",
+    "spring.configuration.checksum": "fcdec429645d33e757eaf34c77ff26be",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -237,6 +237,7 @@
       <workItem from="1666587347697" duration="1735000" />
       <workItem from="1666682879354" duration="154000" />
       <workItem from="1678806072455" duration="962000" />
+      <workItem from="1679317094436" duration="687000" />
     </task>
     <servers />
   </component>
@@ -289,7 +290,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/mldx-user/src/main/java/individual/me/service/HomePageService.java</url>
-          <line>99</line>
+          <line>101</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
